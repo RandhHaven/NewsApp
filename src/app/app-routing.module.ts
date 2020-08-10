@@ -6,13 +6,11 @@ const routes: Routes = [
 
   { path: 'News', loadChildren: () => import('./components/news/news.module').then(m => m.NewsModule) },
 
-  { path: 'Message ', loadChildren: () => import('./components/message/message.module').then(m => m.MessageModule) },
+  { path: 'Message', loadChildren: () => import('./components/message/message.module').then(m => m.MessageModule) },
 
   { path: 'Settings', loadChildren: () => import('./components/settings-app/settings-app.module').then(m => m.SettingsAppModule) },
   
-  { path: 'Complete News', loadChildren: () => import('./components/complete-news/complete-news.module').then(m => m.CompleteNewsModule) },
-
-  { path: 'Footer', loadChildren: () => import('./shared/footer/footer.component').then(m => m.FooterComponent) },
+  { path: 'CompleteNews', loadChildren: () => import('./components/complete-news/complete-news.module').then(m => m.CompleteNewsModule) },
 
   { path: '', pathMatch: 'full', redirectTo: 'Start'}
 ];

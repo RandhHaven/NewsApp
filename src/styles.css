@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-image: url('./assets/img/fondo-Azul.png');
+    background-image: url('./assets/img/fondo-pantalla.jpg');
     margin-top: 100px;
     margin-bottom: 110px;
     min-height: 500px;
@@ -28,13 +28,13 @@ body {
   }
   
   .colorBody1 {
-    background-color: yellow !important;
+    background-color: rgba(255, 255, 255, 0.986) !important;
     border: 2px solid black !important;
   }
   
   .colorNavbar2 {
-    background-image: url('./assets/img/navfoo.jpg');
-    border: 2px solid yellow;
+    background-image: url('./assets/img/fondo-Azul.png');
+    border: 2px solid rgba(244, 246, 247, 0.959);
     border-radius: 2px;
     margin: 5px;
     padding: 0px;
@@ -45,7 +45,7 @@ body {
   }
   
   .colorName4 {
-    color: yellow !important;
+    color: rgb(249, 250, 252) !important;
     text-shadow: 2px 2px 4px rgb(83, 83, 8);
   }
   
